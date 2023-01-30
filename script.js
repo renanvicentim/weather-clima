@@ -65,7 +65,7 @@ function displayWeather(data) {
     weatherIcon.src = `./assets/${icon}.svg`
     weatherDescription.textContent = description
     currentTemperature.textContent = `${Math.round(temp)}ºC`
-    windSpeed.textContent = `${Math.round(speed * 3.6)}km`
+    windSpeed.textContent = `${Math.round(speed * 3.6)}km/h`
     feelsLikeTemperature.textContent = `${Math.round(feels_like)}ºC`
     currentHumidity.textContent = `${humidity}%`
     sunriseTime.textContent = formatTime(sunrise)
